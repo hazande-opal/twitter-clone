@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: black;
+}
+.main-content{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.logo-container{
+    width: 52%;
+    height: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-container span svg{
+    padding: 15px 15px 15px 15px;
+    height: 25em;
+    width: 25em;
+}
+
+.content-container{
+    width: 48%;
+    height: 99%;
+    display: flex;
+    flex-direction: column;
+}
+.or-space{
+    width: 330px;
+    height: 35px;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    
+}
+.span-line-1,
+.span-line-2{
+    margin-top: 0px;
+    color: rgb(91, 91, 91);
+}
+.span-line-2{
+    margin-left: 5px;
+}
+.span-line-1{
+    margin-right: 5px;
+}
+.or-space p{
+    color: antiquewhite;
+    margin-top: 5px;
+}
+.or-space span{
+    color: rgb(219, 232, 235);
+}
+.account-create{
+    width: 330px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.register{
+    height: 40px;
+    width: 290px;
+    display: flex;
+    
+    background-color:#1D9BF0;
+    
+}
+.register:active{
+    scale: 0.95;
+}
+.register p{
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    margin-left: 30px;
+}
+.google-signup{
+    width: 330px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+button{
+    height: 40px;
+    width: 290px;
+    display: flex;
+    padding-left: 4.6em;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+button span svg{
+    width: 18px;
+    height: 18px;
+    margin-top: 50%;
+}
+button p{
+    font-size: 14px;
+    margin-top: 8px;
+    margin-left: 7px;
+    font-weight: 600;
+}
+button:active{
+    scale: 0.95;
+}
+.apple-signup{
+    width: 330px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.terms-of-service{
+    width: 330px;
+    height: 38px;
+    padding-left: 20px;
+}
+.terms-of-service p{
+    font-size: 12px;
+}
+.terms-of-service p span{
+    color: rgb(112, 112, 112);
+}
+.terms-of-service p a{
+    text-decoration: none;
+    color: #1D9BF0;
+    
+}
+.terms-of-service p a:hover{
+    text-decoration: underline;
+}
+.account-existent{
+    width: 330px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.account-existent span{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    margin-top: 50px;
+}
+.account-existent button{
+    margin-top: 15px;
+    height: 40px;
+    width: 290px;
+    display: flex;
+    background-color: transparent;
+    padding-left: 110px;
+    border: 1px grey solid;
+    isolation: isolate;
+}
+.account-existent button:active{
+    scale: 0.95;
+}
+
+.account-existent button p{
+   font-weight: 700;
+    font-size: 15px;
+    color: #1D9BF0;
+    z-index: 1000;
+    
+}
+.main-heading{
+    margin-top: 30px;
+    height: 130px;
+   margin-left: 20px;
+}
+h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+    margin-top: 50px;
+    
+}
+.catch-phrase p{
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    color: white;
+}
+/*
+nav{
+    width: 1270px;
+    height: 80px;
+}
+nav p a{
+    font-size: 13px;
+}
+nav p{
+    
+}
+*/
